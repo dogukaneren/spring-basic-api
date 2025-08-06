@@ -5,7 +5,8 @@
   <groupId>com.example</groupId>
   <artifactId>spring-project</artifactId>
   <version>1.0</version>
-  <packaging>war</packaging>
+  <!--<packaging>war</packaging>-->
+  <packaging>jar</packaging>
 
   <parent>
     <groupId>org.springframework.boot</groupId>
@@ -41,7 +42,7 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
         <configuration>
-          <skip>true</skip>
+          <!--<skip>true</skip>-->
         </configuration>
       </plugin>
       <plugin>
